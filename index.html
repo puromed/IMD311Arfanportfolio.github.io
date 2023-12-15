@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/images/icons/alogo.png">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav>
+        <div class="logo">
+            <h4><a class="namelink" href="#">Arfan Haziq <br> Student of Information <br> Management</a></h4>
+        </div>
+        <ul id="nav-links">
+            <li><a class="button" href="#biodata">About</a></li>
+            <li><a class="button" href="gallery.html">Gallery</a></li>
+            <li><a class="button" href="#contactplace">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Big line bout me -->
+    <section class="bigline">
+        <div>
+            <h1>Hello! My name is <span class="me">Arfan <img class="big_img"
+                        src="Assets/images/bigline/mypic1.jpg"></span> and I am from <span class="me">UiTM
+                    Segamat. <img class="big_img" src="Assets/images/bigline/gegamat.jpg"></span>
+                <br>
+                I am currently undertaking a diploma in <span class="me"><img class="big_img"
+                        src="Assets/images/bigline/classim.JPG">Information Management</span> and on my last semester.
+            </h1>
+        </div>
+    </section>
+
+    <!-- this here can put arrow and time -->
+    <div id="clock" onload="currentTime()"></div>
+
+
+
+    <!-- About me -->
+    <section id="biodata">
+        <h3>Biodata of me:</h3>
+        <div class="card-container">
+            <ul>
+                <li class="bio">Full Name: Mohammad Arfan Haziq bin Razlan</li>
+                <li class="bio">Age: 20 Years Old</li>
+                <li class="bio">Place of birth: Hospital Selayang</li>
+                <li class="bio">Date of Birth: 3rd of March 2003</li>
+            </ul>
+
+            <div class="image-card perspective-right">
+                <img class="biopic" src="Assets/images/bigline/arfan.JPG">
+
+            </div>
+
+
+        </div>
+        <div class="butlearnmore">
+            <a class="button" href="family.html">Learn More</a></li>
+        </div>
+
+    </section>
+
+    <!-- Education background -->
+    <section id="education">
+        <h3>Education Background</h3>
+        <div class="background-container">
+            <div class="school">
+                <a href="https://ms.wikipedia.org/wiki/Sekolah_Kebangsaan_Subang,_Selangor" target="_blank">
+                    <img src="Assets/images/Education/sksubang.jpg" alt="sk">
+                </a>
+                <h4>SK Subang</h4>
+            </div>
+            <div class="school">
+                <a href="https://ms.wikipedia.org/wiki/Sekolah_Menengah_Kebangsaan_Alam_Megah" target="_blank">
+                    <img src="Assets/images/Education/alammegah.jpg" alt="smk">
+                </a>
+
+                <h4>SMK Alam Megah</h4>
+            </div>
+            <div class="school">
+                <a href="https://johor.uitm.edu.my/" target="_blank">
+                    <img src="Assets/images/Education/uni.jpg" alt="uni">
+                </a>
+
+                <h4>UiTM Segamat</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience part -->
+    <div id="experience">
+        <section class="hidden">
+            <h2>What about my <span class="xpcursor">experience?</span></h2>
+            <p>I do have a bit to share....</p>
+        </section>
+
+        <section class="hidden">
+            <h4>Citylink</h4>
+            <img src="Assets/images/icons/citylink.png" class="warehaus">
+            <p>Honest Opinion: Fun coworkers, but really low pay. 5/10</p>
+        </section>
+
+        <section class="hidden">
+            <h4>Shopee</h4>
+            <img src="Assets/images/icons/shopee.png" class="warehaus">
+            <p>Honest Opinion: Quite a job, heavy on the body. 4/10</p>
+        </section>
+
+        <section class="hidden">
+            <h4>Lazada</h4>
+            <img src="Assets/images/icons/lazada.png" class="warehaus">
+            <p>Honest Opinion: Never coming back. 1/10</p>
+        </section>
+    </div>
+
+    <!-- Table section -->
+
+    <div class="tablecenter">
+        <section class="table_header">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Artist</th>
+                        <th>Genre</th>
+                        <th>Song</th>
+                        <th>Snippets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <img src="Assets/images/table/Holdingabsence.jpg"> Holding Absence</td>
+                        <td>Post Hardcore</td>
+                        <td>Birdcage</td>
+                        <td> <audio controls>
+                                <source src="Assets/audio/birdcage.mp3" type="audio/mpeg">
+                            </audio> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="Assets/images/table/jeremysoule.jpeg">Jeremy Soule</td>
+                        <td>Orchestral Symphonic</td>
+                        <td>Harvest Dawn</td>
+                        <td> <audio controls>
+                                <source src="Assets/audio/harvestdawn.mp3" type="audio/mpeg">
+                            </audio></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="Assets/images/table/hanszimmer.jpg">Hans Zimmer</td>
+                        <td>Orchestral Symphonic</td>
+                        <td>Cornfield Chase</td>
+                        <td> <audio controls>
+                                <source src="Assets/audio/cornfieldchase.mp3" type="audio/mpeg">
+                            </audio> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="Assets/images/table/aphextwin.jpg">Aphex Twin</td>
+                        <td>Drone/Ambience</td>
+                        <td>Avril 14th</td>
+                        <td><audio controls>
+                                <source src="Assets/audio/avril.mp3" type="audio/mpeg">
+                            </audio> </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <div class="tableword">
+        <section class="hidden">
+            <h2>My Table music</h2>
+            <p>Here are some of my favourite music, I hope you enjoy them as much as I do!</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contactplace">
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h1 class="logo-text"><span>Arfan Haziq</span></h1>
+                    <p>
+                        I am a student of Information Management in UiTM Segamat.
+                    </p>
+                    <div class="contact">
+                        <span><a href="https://github.com/" target="_blank"><img
+                                    src="Assets/images/icons/github.png"></a></span>
+                        <span><a href="https://www.instagram.com/" target="_blank"><img
+                                    src="Assets/images/icons/instagram.png"></a></span>
+                        <span><a href="https://www.linkedin.com/" target="_blank"><img
+                                    src="Assets/images/icons/linkedin.png"></a></span>
+                    </div>
+                </div>
+                <div class="footerlinks">
+                    <h2>Quick Links</h2>
+                    <br>
+                    <ul>
+                        <a href="#biodata">
+                            <li>About</li>
+                        </a>
+                        <a href="family.html">
+                            <li>Learn more</li>
+                        </a>
+                        <a href="gallery.html">
+                            <li>Gallery</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="contactform">
+                    <h2>Contact Me</h2>
+                    <br>
+                    <form action="index.html" method="post">
+                        <input type="email" name="email" class="textemail" placeholder="Your email address">
+                        <button type="submit" class="btnsend">
+                            <img src="Assets/images/icons/send.png"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; arfanhaziq.com | Designed by Arfan Haziq
+    </footer>
+
+
+
+
+
+
+
+    <script src="Assets/index.js"></script>
+</body>
+
+</html>
